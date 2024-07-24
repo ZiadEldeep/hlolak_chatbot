@@ -8,13 +8,13 @@ export default function Main () {
     <div className={ "main" }>
       <div className={ "nav" }>
         <img src={ assets.portfolio } />
-        <p>Banha University</p>
+        <p>Hlolak Chatbot</p>
       </div>
       <div className={ "main-container" }>
         { !showResult
           ? <>
             <div className={ "greet" }>
-              <p><span>Hello, Student</span></p>
+              <p><span>Hello, Client</span></p>
               <p>How can I help you today?</p>
             </div>
 
